@@ -15,15 +15,15 @@
         android:layout_margin="20dp"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_gravity="center"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/edit_text_background"
-            android:scaleType="fitCenter"
-            android:src="@drawable/code_android_logo" />
-
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="15dp"
+            android:text="Benigno Ranilla"
+            android:textColor="@color/white"
+            android:textSize="26dp" />
 
         <EditText
             android:id="@+id/username"
@@ -31,8 +31,8 @@
             android:layout_height="48dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/edit_text_background"
-            android:drawablePadding="10dp"
             android:drawableStart="@drawable/ic_user"
+            android:drawablePadding="10dp"
             android:ems="10"
             android:hint="User Name"
             android:inputType="textPersonName"
@@ -85,5 +85,6 @@
             android:textColor="@color/white"
             android:textSize="21sp" />
     </LinearLayout>
+
 
 </RelativeLayout>
